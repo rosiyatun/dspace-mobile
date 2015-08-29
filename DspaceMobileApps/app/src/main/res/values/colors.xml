@@ -1,0 +1,33 @@
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+    <color name="gray">#b6b6b6</color>
+    <color name="gray_1">#c0c0c0</color>
+    <color name="gray_2">#afafaf</color>
+    <color name="gray_3">#eeeeee</color>
+    <color name="dark_slate_gray">#2f4f4f</color>
+
+    <color name="universal">#a02112</color>
+    <color name="universal_clear">#ffffab8e</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="link">#a02112</color>
+    <color name="tab_line">#a02112</color>
+    <color name="tab_indicator">#ffffff</color>
+
+
+    <color name="button_default">#ffffffff</color>
+    <color name="button_default_edge">#ffcccccc</color>
+    <color name="button_default_pressed">#ffebebeb</color>
+    <color name="button_default_pressed_edge">#ffadadad</color>
+    <color name="button_default_disabled">#a5ffffff</color>
+    <color name="button_default_disabled_edge">#a5cccccc</color>
+
+    <color name="button_blue">#ff0944ff</color>
+    <color name="button_blue_pressed">#ff61a7eb</color>
+    <color name="button_blue_disabled">#a5a2d1ff</color>
+
+
+
+</resources>
