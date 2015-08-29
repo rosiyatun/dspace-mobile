@@ -88,6 +88,11 @@ public abstract class SherinaCode {
         protected Void doInBackground(HashMap<String, String>... params) {
             AsyncHttpRequest asyncHttpRequest = new AsyncHttpRequest(
                     Uri.parse(url), method);
+
+            // untuk saat ini, hanya untuk result yang JSON aja.
+            asyncHttpRequest.addHeader("Accept", "text/json");
+            asyncHttpRequest.addHeader("content-type", "application/json");
+
             if (params[0] != null) {
                 Iterator<Map.Entry<String, String>> it = params[0].entrySet()
                         .iterator();
