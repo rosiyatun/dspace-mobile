@@ -6,8 +6,12 @@ package id.ac.ipb.dspacemobileapps.models;
  */
 public class Pagination {
     public static final String ORDER_BY_LAST_UPDATE = "last_update";
-    public static final String ORDER_BY_NAME = "name";
-    public static final String ORDER_BY_RATING = "rating";
+    public static final String ORDER_BY_RELEVANCE = "relevance";
+    public static final String ORDER_BY_TITLE = "title";
+    public static final String ORDER_BY_ISSUE_DATE = "issue_date";
+
+    public static final String ORDER_TIPE_ASCENDING = "ASC";
+    public static final String ORDER_TIPE_DESCENDING  = "DESC";
 
     private Integer firstIndex;
     private Integer lastIndex;
@@ -15,6 +19,7 @@ public class Pagination {
     private Integer pageCount;
     private Integer count;
     private String orderBy;
+    private String orderTipe;
 
     public Integer getFirstIndex() {
         return firstIndex;
@@ -62,5 +67,13 @@ public class Pagination {
 
     public void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
+    }
+
+    public String getOrderTipe() {
+        return orderTipe;
+    }
+
+    public void setOrderTipe(String orderTipe) {
+        this.orderTipe = orderTipe;
     }
 }
