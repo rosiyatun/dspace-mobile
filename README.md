@@ -1,4 +1,7 @@
 # dspace-client-android
-The project is to develop DSpace client on android
+This project is DSpace client on android
 
-Data taken from DSpace through the rest
+If you want to become a contributor, please contact me
+
+hanf_aff@apps.ipb.ac.id
+hartanto.hanif@gmail.com
