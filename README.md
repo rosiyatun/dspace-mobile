@@ -1,4 +1,4 @@
 # dspace-client-android
-Projek ini untuk mengembangkan dspace client pada android
+The project is to develop DSpace client on android
 
-Data yang diambil dari dspace melalui rest
+Data taken from DSpace through the rest
